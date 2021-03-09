@@ -1,0 +1,773 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.main {
+    height: 785px;
+    width: 1300px;
+    background: #E9EFEF;
+    margin: 0px auto;
+    position: relative;
+}
+
+.bangladesh {
+    height: 155px;
+    width: 250px;
+    background: green;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.red {
+    height: 90px;
+    width: 90px;
+    background: red;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.b_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    text-align: center;
+}
+
+.hungary {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    left: 260px;
+    top: 0px;
+}
+
+.h_red {
+    height: 33.3%;
+    width: 100%;
+    background: rgb(200, 16, 46);
+}
+
+.h_white {
+    height: 33.3%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.h_green {
+    height: 33.3%;
+    width: 100%;
+    background: rgb(0, 132, 61);
+}
+
+.h_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 315px;
+    top: 160px;
+    text-align: center;
+}
+
+.france {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    left: 520px;
+    top: 0px;
+}
+
+.f_n {
+    width: 33%;
+    height: 155px;
+    background: rgb(0, 85, 164);
+    float: left;
+}
+
+.h_w {
+    width: 34%;
+    height: 155px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+
+.h_o {
+    width: 33%;
+    height: 155px;
+    background: rgb(239, 65, 53);
+    float: left;
+}
+
+.f_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 585px;
+    top: 160px;
+    text-align: center;
+}
+
+.italy {
+    height: 155px;
+    width: 250px;
+    background: rgb(154, 243, 154);
+    position: absolute;
+    left: 780px;
+    top: 0px;
+}
+
+.i_g {
+    width: 33%;
+    height: 155px;
+    background: rgb(0, 140, 69);
+    float: left;
+}
+
+.i_w {
+    width: 34%;
+    height: 155px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+
+.i_r {
+    width: 33%;
+    height: 155px;
+    background: rgb(205, 33, 42);
+    float: left;
+}
+
+.i_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 835px;
+    top: 160px;
+    text-align: center;
+}
+
+.switzerland {
+    height: 155px;
+    width: 250px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    left: 1040px;
+    top: 0px;
+}
+
+.sw_one {
+    height: 85px;
+    width: 20px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 115px;
+    top: 31px;
+}
+
+.sw_two {
+    height: 20px;
+    width: 85px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 84px;
+    top: 62px;
+}
+
+.sw_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 1110px;
+    top: 160px;
+    text-align: center;
+}
+
+.india {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.in_o {
+    width: 250px;
+    height: 33%;
+    background: rgb(255, 143, 28);
+}
+
+.in_w {
+    width: 250px;
+    height: 34%;
+    background: rgb(255, 255, 255);
+}
+
+.in_w img {
+    position: absolute;
+    width: 55px;
+    height: 50px;
+    top: 53px;
+    left: 91px;
+}
+
+.in_g {
+    width: 250px;
+    height: 33%;
+    background: rgb(80, 158, 47);
+}
+
+.in_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    top: 360px;
+    text-align: center;
+}
+
+.pakistan {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.pa_w {
+    height: 155px;
+    width: 25%;
+    float: left;
+    background: rgb(255, 255, 255);
+}
+
+.pa_g {
+    height: 155px;
+    width: 75%;
+    float: left;
+    background: rgb(17, 87, 64);
+}
+
+.pa_g img {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.pa_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 325px;
+    top: 360px;
+    text-align: center;
+}
+
+.russia {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 520px;
+}
+
+.ru_h {
+    width: 250px;
+    height: 33%;
+    background: rgb(255, 255, 255);
+}
+
+.ru_b {
+    width: 250px;
+    height: 34%;
+    background: rgb(0, 114, 206);
+}
+
+.ru_r {
+    width: 250px;
+    height: 33%;
+    background: rgb(239, 51, 64);
+}
+
+.ru_flag {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 585px;
+    top: 360px;
+    text-align: center;
+}
+
+.saudi {
+    height: 155px;
+    width: 250px;
+    background: rgb(0, 150, 57);
+    position: absolute;
+    top: 200px;
+    left: 780px;
+}
+
+.sau_g img {
+    position: absolute;
+    top: 15px;
+    left: 36px;
+}
+
+.sau_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 805px;
+    top: 360px;
+    text-align: center;
+}
+
+
+/* ---------------------------------syria----------------------- */
+
+.syria {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 1040px;
+}
+
+.sy_r {
+    height: 33%;
+    width: 250px;
+    background: rgb(239, 51, 64);
+}
+
+.sy_w {
+    height: 34%;
+    width: 250px;
+    background: rgb(255, 255, 255);
+}
+
+.sy_w img {
+    position: absolute;
+    top: 53px;
+    left: 50px;
+}
+
+.sy_b {
+    height: 33%;
+    width: 250px;
+    background: rgb(0, 0, 0);
+}
+
+.sy_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 1065px;
+    top: 360px;
+    text-align: center;
+}
+
+
+/* ------------------------turkey--------------------------- */
+
+.turkey {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 395px;
+    left: 0px;
+    background: rgb(200, 16, 46);
+}
+
+.tu_g img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.tu_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 555px;
+    text-align: center;
+}
+
+
+/* --------------------------Belgium ------------------------- */
+
+.belgium {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 395px;
+    left: 260px;
+}
+
+.be_h {
+    height: 155px;
+    width: 33%;
+    background: #000000;
+    float: left;
+}
+
+.be_b {
+    height: 155px;
+    width: 34%;
+    background: #FFCD00;
+    float: left;
+}
+
+.be_r {
+    height: 155px;
+    width: 33%;
+    background: #C8102E;
+    float: left;
+}
+
+.be_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 285px;
+    top: 555px;
+    text-align: center;
+}
+
+
+/* ----------------------Ukraine --------------------- */
+
+.ukraine {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 395px;
+    left: 520px;
+}
+
+.uk_n {
+    width: 250px;
+    height: 50%;
+    background: #0057B8;
+}
+
+.uk_y {
+    width: 250px;
+    height: 50%;
+    background: #FFD700;
+}
+
+.uk_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 530px;
+    top: 555px;
+    text-align: center;
+}
+
+
+/* --------------------Brazil---------------------- */
+
+.brazil {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 395px;
+    left: 780px;
+    background: #009C3B;
+}
+
+.bra_g img {
+    width: 200px;
+    position: absolute;
+    height: 130px;
+    top: 13px;
+    left: 21px;
+}
+
+.bra_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 800px;
+    top: 555px;
+    text-align: center;
+}
+
+
+/* ---------------------------------Paraguay --------------------------- */
+
+.paraguay {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 395px;
+    left: 1040px;
+}
+
+.per_h {
+    height: 33%;
+    width: 250px;
+    background: #EF3340;
+}
+
+.per_b {
+    height: 34%;
+    width: 250px;
+    background: #FFFFFF;
+}
+
+.per_b img {
+    position: absolute;
+    top: 51px;
+    left: 85px;
+}
+
+.per_r {
+    height: 33%;
+    width: 250px;
+    background: #0033A0;
+}
+
+.per_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 1065px;
+    top: 555px;
+    text-align: center;
+}
+
+
+/* --------------------------Argentina----------------------- */
+
+.argentina {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 590px;
+    left: 0px;
+    background: #009C3B;
+}
+
+.arg_h {
+    height: 33%;
+    width: 250px;
+    background: #6CACE4;
+}
+
+.arg_b {
+    height: 34%;
+    width: 250px;
+    background: #FFFFFF;
+}
+
+.arg_b img {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.arg_r {
+    height: 33%;
+    width: 250px;
+    background: #6CACE4;
+}
+
+.arg_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 755px;
+    text-align: center;
+}
+
+
+/* ------------------------Portugal------------------------- */
+
+.portugal {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 590px;
+    left: 260px;
+}
+
+.por_h {
+    height: 155px;
+    width: 35%;
+    background: #046A38;
+    float: left;
+}
+
+.por_r {
+    height: 155px;
+    width: 65%;
+    background: #DA291C;
+    float: left;
+}
+
+.por_b img {
+    height: 100%;
+    width: 201px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+
+.por_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 275px;
+    top: 755px;
+    text-align: center;
+}
+
+
+/* -----------------------Netherlands ---------------------- */
+
+.netherland {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 590px;
+    left: 520px;
+}
+
+.net_h {
+    height: 33%;
+    width: 250px;
+    background: #C8102E;
+}
+
+.net_b {
+    height: 34%;
+    width: 250px;
+    background: #FFFFFF;
+}
+
+.net_r {
+    height: 33%;
+    width: 250px;
+    background: #003DA5;
+}
+
+.net_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 530px;
+    top: 755px;
+    text-align: center;
+}
+
+
+/* -----------------------Lesotho ---------------------- */
+
+.lesotho {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 590px;
+    left: 780px;
+}
+
+.les_h {
+    height: 33%;
+    width: 250px;
+    background: #001489;
+}
+
+.les_b {
+    height: 34%;
+    width: 250px;
+    background: #FFFFFF;
+}
+
+.les_b img {
+    height: 40px;
+    width: 60px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 55px;
+    left: 85px;
+}
+
+.les_r {
+    height: 33%;
+    width: 250px;
+    background: #009A44;
+}
+
+.les_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 790px;
+    top: 755px;
+    text-align: center;
+}
+
+
+/* --------------------Canada------------------- */
+
+.canada {
+    height: 155px;
+    width: 250px;
+    position: absolute;
+    top: 590px;
+    left: 1040px;
+}
+
+.can_h {
+    height: 155px;
+    width: 25%;
+    background: #EF3340;
+    float: left;
+}
+
+.can_b {
+    height: 155px;
+    width: 50%;
+    background: #FFFFFF;
+    float: left;
+}
+
+.can_b img {
+    height: 112px;
+    width: 117px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 67px;
+}
+
+.can_r {
+    height: 155px;
+    width: 25%;
+    background: #EF3340;
+    float: left;
+}
+
+.can_flag {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 1065px;
+    top: 755px;
+    text-align: center;
+}
